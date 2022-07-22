@@ -5,7 +5,7 @@ from random import randint
 print('Хотите бросить кубики?')
 repeat = input().lower()
 
-#
+
 if repeat == 'да':
     print('Бросок кубиков...')
     print('Первый кубик показывает:', randint(1, 6))
